@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lana Al Dossary | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<!-- Background grid -->
+<div class="bg-grid"></div>
+
+<header>
+  <div class="container header-inner">
+    <a href="#top" class="logo"><span class="bracket">&lt;</span>Lana Al Dossary<span class="bracket">/&gt;</span></a>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#certificates">certificates</a></li>
+        <li><a href="#hackathons">hackathons</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    <button id="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">// portfolio.init()</p>
+    <h1 class="hero-title">Lana Al Dossary</h1>
+    <p class="hero-sub">
+      <span id="typed"></span><span class="cursor">_</span>
+    </p>
+    <p class="hero-desc">Senior MIS student building at the intersection of <strong>data, cloud, and AI</strong>. I turn messy data and infrastructure into things that actually work.</p>
+    <div class="hero-actions">
+      <a href="CV Lana.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+      <a href="#contact" class="btn btn-outline">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="tag">about</span></h2>
+    <p class="lead">
+      I'm Lana Al Dossary, an MIS Fresh Graduate passionate about data, development, and solving problems! 
+      through technology. I'm always eager to build, learn, and grow in the tech field — from cloud infrastructure and networking to machine learning and AI.
+    </p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="tag">experience</span></h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Co-op – Saudi Aramco</h3>
+          <p class="date">Jan 12, 2026 – May 4, 2026</p>
+          <p class="task-title">Management & Professional Development Program (M&amp;PDP)</p>
+          <p>Completed a co-op within the M&amp;PDP department, gaining hands-on exposure to corporate
+          development processes, training program design, and professional development workflows.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Huawei Summer Training</h3>
+          <p class="date">June 2025 – July 2025</p>
+          <div class="task">
+            <p class="task-title">HCCDA Tech Essentials (Cloud)</p>
+            <p>Completed Huawei Certified ICT training covering core cloud computing concepts and essentials.</p>
+          </div>
+          <div class="task">
+            <p class="task-title">HCIA Datacom (Networking)</p>
+            <p>Trained in fundamental networking concepts, datacom technologies, and Huawei networking solutions.</p>
+          </div>
+          <div class="task">
+            <p class="task-title">HCIA Artificial Intelligence (AI)</p>
+            <p>Trained in AI fundamentals, machine learning concepts, and Huawei's AI development frameworks.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Data Analyst Intern – Zidio Development</h3>
+          <p class="date">Jan 2025 – Feb 2025</p>
+          <div class="task">
+            <p class="task-title">Face Detection</p>
+            <p>Built a face detection notebook using OpenCV and image processing.</p>
+            <a href="face_detection.py" class="btn btn-sm" target="_blank">Download .py</a>
+          </div>
+          <div class="task">
+            <p class="task-title">Data Visualization</p>
+            <p>Created visual dashboards with Matplotlib and Seaborn.</p>
+            <a href="data_visualization.py" class="btn btn-sm" target="_blank">Download .py</a>
+          </div>
+          <div class="task">
+            <p class="task-title">Image Processing</p>
+            <p>Applied filters and transformations to demonstrate image manipulation.</p>
+            <a href="img_segmentation.py" class="btn btn-sm" target="_blank">Download .py</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Data Analyst Intern – Data X</h3>
+          <p class="date">July 2024</p>
+          <p>Worked on supervised classification tasks and built ML models using Python.</p>
+          <p class="task-title">Dashboards</p>
+          <div class="dashboard-gallery">
+            <div class="dashboard-card">
+              <img src="performance-dashboard.jpg" alt="Performance Dashboard" loading="lazy" />
+              <p>Performance Dashboard</p>
+            </div>
+            <div class="dashboard-card">
+              <img src="sql-startup-dashboard.jpg" alt="SQL Startup Dashboard" loading="lazy" />
+              <p>SQL Startup Dashboard</p>
+            </div>
+            <div class="dashboard-card">
+              <img src="gender-comparison-dashboard.jpg" alt="Gender Comparison Dashboard" loading="lazy" />
+              <p>Gender Purchase Comparison</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>SME Student – KAUST Academy</h3>
+          <p class="date">May 2024</p>
+          <p>Provided consulting and business modeling support for local SMEs through student-led engagements.</p>
+          <p class="task-title">IoT Project</p>
+          <a class="btn btn-sm" href="IoT-project.pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="tag">projects</span></h2>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-type="all">All</button>
+      <button class="filter-btn" data-type="dashboard">Dashboard</button>
+      <button class="filter-btn" data-type="ml">ML Model</button>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card dashboard">
+        <span class="card-tag">dashboard</span>
+        <h3>Stock Market Dashboard</h3>
+        <p>Visualized stock data for various companies using Python, pandas, and Matplotlib.</p>
+        <a href="stock_market_dashboard.py" target="_blank" class="btn btn-sm">Download Project</a>
+      </div>
+      <div class="project-card ml">
+        <span class="card-tag">ml model</span>
+        <h3>Twitter Sentiment Classifier</h3>
+        <p>Developed a sentiment analysis model using Logistic Regression and SVM on airline tweet data.</p>
+        <a href="Twitter_classifier.pdf.pdf" target="_blank" class="btn btn-sm">Download Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="tag">certificates</span></h2>
+    <div class="project-grid">
+      <div class="project-card cert-card">
+        <span class="card-tag">oracle</span>
+        <h3>Oracle APEX Professional Certificate</h3>
+        <p>Demonstrates proficiency in low-code application development using Oracle APEX.</p>
+      </div>
+      <div class="project-card cert-card">
+        <span class="card-tag">huawei</span>
+        <h3>HCCDA Tech Essentials (Cloud)</h3>
+        <p>Huawei Certified ICT Associate – core cloud computing concepts and essentials.</p>
+      </div>
+      <div class="project-card cert-card">
+        <span class="card-tag">huawei</span>
+        <h3>HCIA Datacom (Networking)</h3>
+        <p>Huawei Certified ICT Associate – fundamental networking and datacom technologies.</p>
+      </div>
+      <div class="project-card cert-card">
+        <span class="card-tag">huawei</span>
+        <h3>HCIA Artificial Intelligence</h3>
+        <p>Huawei Certified ICT Associate – AI fundamentals and development frameworks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HACKATHONS -->
+<section id="hackathons" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="tag">hackathons</span></h2>
+    <div class="hackathon-slider">
+      <button id="prev-btn" class="nav-btn" aria-label="Previous">&lt;</button>
+      <div id="hackathon-cards-container"></div>
+      <button id="next-btn" class="nav-btn" aria-label="Next">&gt;</button>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="tag">skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><p>Python</p></div>
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"><p>SQL</p></div>
+      <div class="skill-card"><img src="https://img.icons8.com/color/96/000000/power-bi.png" alt="Power BI"><p>Power BI</p></div>
+      <div class="skill-card"><img src="https://img.icons8.com/fluency/96/microsoft-excel-2019.png" alt="Excel"><p>Excel</p></div>
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git & GitHub"><p>Git & GitHub</p></div>
+      <div class="skill-card"><img src="https://img.icons8.com/color/96/tableau-software.png" alt="Tableau"><p>Tableau</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="tag">contact</span></h2>
+    <p class="lead">Always open to chat about data, cloud, AI, or new opportunities.</p>
+    <div class="contact-links">
+      <a href="mailto:lanaaaldossary@gmail.com" class="contact-link">
+        <i class="fas fa-envelope"></i> lanaaaldossary@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/lana-al-dossary-1575a4249" target="_blank" class="contact-link">
+        <i class="fab fa-linkedin"></i> linkedin.com/in/lana-al-dossary
+      </a>
+      <a href="https://github.com/lana3x3" target="_blank" class="contact-link">
+        <i class="fab fa-github"></i> github.com/lana3x3
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Lana Al Dossary. All rights reserved.</p>
+</footer>
+
+<button id="dark-mode-toggle" aria-label="Toggle theme"><i class="fas fa-sun"></i></button>
+<button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+<script src="main.js"></script>
+</body>
+</html>
